@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center; color: brown">
+  <h1>
+    {{ title }}!!
+  </h1>
+  <img width="300" alt="TheLott Logo" src="/assets/Thelott.jpg">
+</div>
+<div style="text-align:center; color:orangered">
+  <h2>Here are your the draw results for current week: </h2>
+</div>
+
+<div style="text-align:center; color:orangered">
+<button (click)="getDrawResults()">Click to see draw results</button>
+</div>
+
+<ul>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
